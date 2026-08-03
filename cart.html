@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart | Thala 7 Sneaker Store</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+
+
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                <h2>Thala <span>7.</span></h2>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="cart.html" class="active">Cart</a></li>
+                <li><a href="payment.html">Payment</a></li>
+            </ul>
+
+            <div class="nav-icons">
+
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search">
+                </div>
+
+                <a href="cart.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+
+                <img src="images/profile.jpg" alt="Profile">
+
+            </div>
+
+        </nav>
+    </header>
+
+
+
+    <section class="cart-page">
+
+        <!-- LEFT SIDE -->
+
+        <div class="cart-left">
+
+            <h1>Shopping Cart</h1>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Remove</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+
+                        <td class="product">
+
+                            <img src="images/shoe1.png" alt="">
+
+                            <span>Thala 7 Running Shoes</span>
+
+                        </td>
+
+                        <td>
+
+                            <div class="qty">
+
+                                <button>-</button>
+
+                                <span>1</span>
+
+                                <button>+</button>
+
+                            </div>
+
+                        </td>
+
+                        <td>₹4,999</td>
+
+                        <td>
+
+                            <i class="fa-solid fa-trash"></i>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td class="product">
+
+                            <img src="images/shoe2.png" alt="">
+
+                            <span>Sports Sneaker</span>
+
+                        </td>
+
+                        <td>
+
+                            <div class="qty">
+
+                                <button>-</button>
+
+                                <span>1</span>
+
+                                <button>+</button>
+
+                            </div>
+
+                        </td>
+
+                        <td>₹3,799</td>
+
+                        <td>
+
+                            <i class="fa-solid fa-trash"></i>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td class="product">
+
+                            <img src="images/shoe3.png" alt="">
+
+                            <span>Premium Sneaker</span>
+
+                        </td>
+
+                        <td>
+
+                            <div class="qty">
+
+                                <button>-</button>
+
+                                <span>2</span>
+
+                                <button>+</button>
+
+                            </div>
+
+                        </td>
+
+                        <td>₹5,499</td>
+
+                        <td>
+
+                            <i class="fa-solid fa-trash"></i>
+
+                        </td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+            <a href="product.html" class="continue">
+
+                <i class="fa-solid fa-arrow-left"></i>
+
+                Continue Shopping
+
+            </a>
+
+        </div>
+
+        <!-- RIGHT SIDE -->
+
+        <div class="cart-right">
+
+            <div class="summary">
+
+                <h2>Order Summary</h2>
+
+                <div class="coupon">
+
+                    <input type="text" placeholder="Coupon Code">
+
+                    <button>Apply</button>
+
+                </div>
+
+                <div class="price-row">
+
+                    <span>Sub Total</span>
+
+                    <span>₹14,297</span>
+
+                </div>
+
+                <div class="price-row">
+
+                    <span>Taxes</span>
+
+                    <span>₹199</span>
+
+                </div>
+
+                <div class="price-row">
+
+                    <span>Discount</span>
+
+                    <span>-₹500</span>
+
+                </div>
+
+                <hr>
+
+                <div class="price-row total">
+
+                    <strong>Total</strong>
+
+                    <strong>₹13,996</strong>
+
+                </div>
+
+            </div>
+
+            <a href="payment.html" class="pay-btn">
+
+                Pay Now ₹13,996
+
+            </a>
+
+            <div class="payment-icons">
+
+                <i class="fa-brands fa-cc-visa"></i>
+
+                <i class="fa-brands fa-cc-mastercard"></i>
+
+                <i class="fa-brands fa-paypal"></i>
+
+                <i class="fa-brands fa-google-pay"></i>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <footer>
+
+        <h3>Thala 7 Sneaker Store</h3>
+
+        <p>© 2026 All Rights Reserved.</p>
+
+    </footer>
+
+</body>
+</html>

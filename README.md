@@ -1,138 +1,46 @@
-# 👟 Thala 7 Sneaker Store
+# Thala 7 Sneaker Store
 
-A responsive sneaker store website built using **HTML5** and **CSS3** without using Bootstrap. This project was created as part of a web development assignment to demonstrate responsive layouts using Flexbox and CSS.
+## About
 
----
+This is my sneaker store website created using HTML and CSS. I made this project to practice responsive web design without using Bootstrap.
 
-## 📁 Project Structure
+## Pages
 
-```text
-Thala7-Sneaker-Store/
-│
-├── index.html
-├── product.html
-├── cart.html
-├── payment.html
-│
-├── css/
-│   └── style.css
-│
-├── images/
-│   ├── shoe.png
-│   ├── shoe1.png
-│   ├── shoe2.png
-│   ├── shoe3.png
-│   ├── shoe4.png
-│   └── profile.jpg
-│
-└── README.md
-```
+- Home Page
+- Product Page
+- Cart Page
+- Payment Page
 
----
+## Features
 
-## 📄 Pages
+- Responsive layout
+- Navigation bar
+- Product section
+- Shopping cart
+- Payment form
+- Hover effects
 
-### 🏠 1. Landing Page (`index.html`)
-- Responsive Navigation Bar
-- Hero Section
-- Featured Sneaker
-- Services Section
-- Footer
+## Technologies Used
 
-### 👟 2. Product Page (`product.html`)
-- Large Product Image
-- Product Gallery
-- Product Details
-- Rating
-- Price & Discount
-- Size Selection
-- Quantity Selector
-- Add to Cart Button
-
-### 🛒 3. Shopping Cart (`cart.html`)
-- Cart Items Table
-- Quantity Controls
-- Coupon Code
-- Order Summary
-- Continue Shopping
-- Pay Now Button
-
-### 💳 4. Payment Page (`payment.html`)
-- Customer Information Form
-- Payment Method Selection
-- Card Details
-- Order Summary
-- Secure Checkout Button
-
----
-
-## ✨ Features
-
-- Responsive Design
-- Pure HTML5 & CSS3
-- Flexbox Layout
-- CSS Animations
-- Hover Effects
-- Mobile Friendly
-- Clean User Interface
-- Font Awesome Icons
-
----
-
-## 🛠 Technologies Used
-
-- HTML5
-- CSS3
+- HTML
+- CSS
 - Flexbox
-- Google Fonts (Poppins)
-- Font Awesome
 
----
+## What I Learned
 
-## 📷 Images Used
+- How to create multiple web pages
+- How to use Flexbox for layout
+- How to make a responsive website
+- How to add hover effects using CSS
 
-Place the following images inside the `images` folder.
+## Challenges
 
-- shoe.png
-- shoe1.png
-- shoe2.png
-- shoe3.png
-- shoe4.png
-- profile.jpg
+- Making the layout responsive on different screen sizes.
+- Aligning the product cards correctly.
+- Adjusting spacing and images.
 
----
+## How to Run
 
-## ▶️ How to Run
-
-1. Download or clone the project.
+1. Download the project.
 2. Open the project folder.
-3. Make sure the folder structure is correct.
-4. Open **index.html** in any modern web browser.
-
-No installation or server is required.
-
----
-
-## 📱 Browser Support
-
-- Google Chrome
-- Microsoft Edge
-- Mozilla Firefox
-- Opera
-- Safari
-
----
-
-## 👨‍💻 Author
-
-**Name:** Your Name
-
-**Course:** Web Development
-
-**Project:** Thala 7 Sneaker Store
-
----
-
-## 📜 License
-
-This project is created for educational purposes only.
+3. Open `index.html` in your browser.

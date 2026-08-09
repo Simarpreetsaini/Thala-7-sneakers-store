@@ -1,147 +1,140 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Payment | Thala 7 Sneaker Store</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-</head>
-<body>
-
-<header>
-
-    <nav class="navbar">
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
         <div class="logo">
-            <h2>Thala <span>7.</span></h2>
+          <h2>Thala <span>7.</span></h2>
         </div>
 
         <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="product.html">Products</a></li>
-            <li><a href="cart.html">Cart</a></li>
-            <li><a href="payment.html" class="active">Payment</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="product.html">Products</a></li>
+          <li><a href="cart.html">Cart</a></li>
+          <li><a href="payment.html" class="active">Payment</a></li>
         </ul>
 
         <div class="nav-icons">
+          <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search" />
+          </div>
 
-            <div class="search-box">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" placeholder="Search">
-            </div>
+          <a href="cart.html">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
 
-            <a href="cart.html">
-                <i class="fa-solid fa-cart-shopping"></i>
-            </a>
-
-            <img src="images/Profile.jpg" alt="Profile">
-
+          <img src="images/profile.jpg" alt="Profile" />
         </div>
+      </nav>
+    </header>
 
-    </nav>
+    <section class="payment-page">
+      <div class="checkout">
+        <p>Checkout</p>
 
-</header>
+        <h2>Contact Details</h2>
 
-<section class="payment-page">
+        <label>Email ID</label>
+        <input type="email" placeholder="John Doe" />
 
-    <div class="checkout-form">
+        <h2>Payment</h2>
 
-        <h2>Checkout</h2>
+        <div class="payment-box">
+          <div class="payment-types">
+            <button>▣<br />Card</button>
+            <button>₿<br />Crypto</button>
+            <button>⌂<br />Bank</button>
+            <button>⋮</button>
+          </div>
 
-        <form>
+          <label>Card Number</label>
+          <input type="text" placeholder="John Doe" />
 
-            <input type="text" placeholder="Full Name">
-
-            <input type="email" placeholder="Email Address">
-
-            <input type="text" placeholder="Phone Number">
-
-            <input type="text" placeholder="Address">
-
-            <div class="row">
-
-                <input type="text" placeholder="City">
-
-                <input type="text" placeholder="ZIP Code">
-
+          <div class="input-row">
+            <div>
+              <label>Expiry</label>
+              <input type="text" placeholder="MM/YY" />
             </div>
 
-            <h3>Payment Method</h3>
+            <div>
+              <label>CVC</label>
+              <input type="text" placeholder="•••" />
+            </div>
+          </div>
 
-            <div class="payment-method">
-
-                <div class="method">
-                    <i class="fa-brands fa-cc-visa"></i>
-                    <p>Visa</p>
-                </div>
-
-                <div class="method">
-                    <i class="fa-brands fa-cc-mastercard"></i>
-                    <p>MasterCard</p>
-                </div>
-
-                <div class="method">
-                    <i class="fa-brands fa-paypal"></i>
-                    <p>PayPal</p>
-                </div>
-
+          <div class="input-row">
+            <div>
+              <label for="country">Country</label>
+              <select id="country">
+                <option>India</option>
+                <option>USA</option>
+                <option>UK</option>
+              </select>
             </div>
 
-            <input type="text" placeholder="Card Number">
-
-            <div class="row">
-
-                <input type="text" placeholder="MM / YY">
-
-                <input type="password" placeholder="CVV">
-
+            <div>
+              <label>ZIP</label>
+              <input type="text" placeholder="XXXXX" />
             </div>
-
-            <button class="btn" type="submit">
-                Pay Now
-            </button>
-
-        </form>
-
-    </div>
-
-    <div class="payment-summary">
-
-        <h2>Order Summary</h2>
-
-        <div class="summary-row">
-            <span>Premium Sneaker</span>
-            <span>₹4,999</span>
+          </div>
         </div>
+      </div>
 
-        <div class="summary-row">
-            <span>Shipping</span>
+      <div class="summary">
+        <h1>Order Summary</h1>
+
+        <div class="summary-box">
+          <label>Enter Coupon Code</label>
+
+          <div class="coupon">
+            <input type="text" placeholder="COUPON CODE" />
+            <button>Apply Coupon</button>
+          </div>
+
+          <p>
+            <span>Sub Total</span>
+            <span>₹4,700</span>
+          </p>
+
+          <p>
+            <span>Taxes (if applicable)</span>
             <span>₹199</span>
-        </div>
+          </p>
 
-        <div class="summary-row">
+          <p>
             <span>Discount</span>
-            <span>-₹500</span>
-        </div>
+            <span>₹0</span>
+          </p>
 
-        <hr>
-
-        <div class="summary-row total">
+          <p class="total">
             <strong>Total</strong>
-            <strong>₹4,698</strong>
+            <strong>₹4,999</strong>
+          </p>
         </div>
 
-    </div>
+        <button class="pay-button">Pay Now ₹4,999</button>
 
-</section>
-
-<footer>
-    <h3>Thala 7 Sneaker Store</h3>
-    <p>© 2026 All Rights Reserved.</p>
-</footer>
-
-</body>
+        <p class="secure">
+          🔒 Secure &nbsp; | &nbsp; Razorpay &nbsp; | &nbsp; 🔒
+        </p>
+      </div>
+    </section>
+    <footer>
+      <h3>Thala 7 Sneaker Store</h3>
+      <p>© 2026 All Rights Reserved.</p>
+    </footer>
+  </body>
 </html>

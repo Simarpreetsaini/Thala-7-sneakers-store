@@ -2,45 +2,52 @@
 
 ## About
 
-This is my sneaker store website created using HTML and CSS. I made this project to practice responsive web design without using Bootstrap.
+I made this sneaker store website using HTML and CSS.
+The main purpose of this project was to practice making
+different pages and using Flexbox.
+
+I did not use Bootstrap.
 
 ## Pages
 
-- Home Page
-- Product Page
-- Cart Page
-- Payment Page
+- Home
+- Products
+- Cart
+- Payment
 
-## Features
+## What I Used
 
-- Responsive layout
-- Navigation bar
-- Product section
-- Shopping cart
-- Payment form
-- Hover effects
-
-## Technologies Used
 
 - HTML
 - CSS
 - Flexbox
+- Font Awesome
 
 ## What I Learned
 
-- How to create multiple web pages
-- How to use Flexbox for layout
-- How to make a responsive website
-- How to add hover effects using CSS
+I learned how to:
 
-## Challenges
+- create links between different HTML pages
+- arrange items using Flexbox
+- make product sections
+- create a shopping cart layout
+- make the layout change on smaller screens
+- use hover effects
 
-- Making the layout responsive on different screen sizes.
-- Aligning the product cards correctly.
-- Adjusting spacing and images.
+## Problems I Faced
+
+One problem I had was getting the cart layout to work
+properly on smaller screens.
+
+At first the cart and order summary stayed beside each
+other even when the screen became small. I solved this
+by using a media query and changing the Flexbox direction.
+
+I also had problems with spacing between the product
+image and product information.
 
 ## How to Run
 
 1. Download the project.
 2. Open the project folder.
-3. Open `index.html` in your browser.
+3. Open index.html in a browser.
